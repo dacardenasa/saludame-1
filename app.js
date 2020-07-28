@@ -4,7 +4,7 @@ const app = express();
 app.get("/", (req, res) => {
   let requestQuery;
   req.query.nombre && req.query.nombre.length > 0
-    ? (requestQuery = req.query.nombre)
+    ? (requestQuery = `Hola ${req.query.nombre}!`)
     : (requestQuery = "Hola desconocido!");
   res.send(`<h1>${requestQuery}</h1>`);
 });
