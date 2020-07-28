@@ -1,0 +1,28 @@
+{
+  "name": "saludame-1",
+  "version": "1.0.0",
+  "description": "Challenge number three express mongoDB make it real",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacardenasa/saludame-1.git"
+  },
+  "keywords": [
+    "Npm",
+    "express",
+    "node",
+    "javascript"
+  ],
+  "author": "Diego Cardenas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dacardenasa/saludame-1/issues"
+  },
+  "homepage": "https://github.com/dacardenasa/saludame-1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
